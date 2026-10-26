@@ -15,4 +15,4 @@
 | Public profile/build | Sanitized and hardware-disabled; not a ready-to-run deployment |
 | Firmware redistribution | No firmware/ROM/payload binaries distributed |
 
-Do not fix these issues by weakening guards or suppressing correctness assertions. Provide evidence and a bounded reproducible test.
+Issue reports should include evidence, a bounded reproduction and the relevant validation result.
