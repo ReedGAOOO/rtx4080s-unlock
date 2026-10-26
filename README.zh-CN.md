@@ -1,8 +1,8 @@
-# rtx4080s-unlock — Windows · RTX 4080 SUPER · 32GB 改装卡
-
-**面向 Windows 下 RTX 4080 SUPER 32GB 显存改装卡（`10de:2702`）的 Tensor Core 解锁研究。**
-
 [English](README.md) | **简体中文**
+
+# rtx4080s-unlock
+
+**面向 RTX 4080 SUPER 32GB 改装卡的 Windows UEFI Tensor Core 解锁方案，包含开机自动执行与性能测试。**
 
 ## 实测结果：4080 SUPER 对比 4090 与 5090
 

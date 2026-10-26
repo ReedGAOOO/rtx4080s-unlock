@@ -1,8 +1,8 @@
-# rtx4080s-unlock — Windows · RTX 4080 SUPER · 32GB Mod
-
-**Windows-first Tensor Core unlock research for a 32GB-modded RTX 4080 SUPER (`10de:2702`).**
-
 **English** | [简体中文](README.zh-CN.md)
+
+# rtx4080s-unlock
+
+**Windows UEFI Tensor Core unlock for a 32GB-modded RTX 4080 SUPER, with automatic startup and benchmarks.**
 
 ## Measured results: 4080 SUPER vs 4090 vs 5090
 
