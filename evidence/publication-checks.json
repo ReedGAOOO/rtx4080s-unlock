@@ -1,0 +1,31 @@
+{
+  "release": "0.6.2-public.1",
+  "public_reference_build": {
+    "artifact": "source/build-candidate/RTXAUTO.EFI",
+    "bytes": 78848,
+    "sha256": "3e1be8eb22f3f4d5a05d8c84af5f96c22357a02bebdade2209710f218bc85d05",
+    "version": "0.6.2-public.1",
+    "reference_only": true,
+    "partition_matching_disabled": true,
+    "hardware_execution_tested": false,
+    "unsigned": true,
+    "system_settings_changed": false,
+    "zig_version": "0.14.1"
+  },
+  "application_replay": {
+    "scenarios_passed": 113,
+    "asan_ubsan": true,
+    "private_inputs_required": true,
+    "hardware_access": false
+  },
+  "host_policy": {
+    "tests_passed": 37,
+    "firmware_api_called": false
+  },
+  "publication_scan": {
+    "privacy_and_format_scan": "passed",
+    "relative_links": "passed",
+    "public_guards": "present"
+  },
+  "system_settings_changed": false
+}

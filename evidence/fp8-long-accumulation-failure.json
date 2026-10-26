@@ -1,0 +1,10 @@
+{
+  "Mode": "e4m3_f32",
+  "Iterations": 10000,
+  "ExpectedCell": 10240000,
+  "ObservedFirstAndLast": 524288,
+  "Mismatches": 270336,
+  "Result": "Numerical check failed; not a valid throughput result",
+  "Followup": "256-iteration short probe passed; cause of long accumulation discrepancy not established",
+  "StateChanges": "No unlock/reset/driver/firmware changes"
+}

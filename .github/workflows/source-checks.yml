@@ -1,0 +1,18 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  public-source:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check source, evidence and links (no GPU or firmware)
+        run: python3 tools/check_publication.py
+  host-policy:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: CPU-only host policy tests
+        shell: powershell
+        run: .\host-tests.ps1

@@ -1,0 +1,67 @@
+{
+  "gpu": "RTX 4080 SUPER 32GB; driver 617.42; 320W (UUID and bus ID removed)",
+  "cubin_sha256": "12d51f53088c9a8378d208fa3f339551f35cae88411c2f196c1ebf716072341e",
+  "iters": 256,
+  "reps": 3,
+  "blocks": 1056,
+  "threads": 256,
+  "warps": 8448,
+  "chains": 8,
+  "modes": {
+    "f16_f32": {
+      "instruction": "bench_f16_f32",
+      "k": 16,
+      "times_ms": [
+        0.3686400055885315,
+        0.3696640133857727,
+        0.3665919899940491
+      ],
+      "rates_Top_per_s": [
+        192.2389304190177,
+        191.70640857065223,
+        193.31289913113048
+      ],
+      "best_Top_per_s": 193.31289913113048,
+      "expected_cell": 131072,
+      "cells_checked": 270336,
+      "mismatches": 0
+    },
+    "e4m3_f32": {
+      "instruction": "bench_e4m3_f32",
+      "k": 32,
+      "times_ms": [
+        0.3686400055885315,
+        0.36556801199913025,
+        0.36556801199913025
+      ],
+      "rates_Top_per_s": [
+        384.4778608380354,
+        387.70876038338173,
+        387.70876038338173
+      ],
+      "best_Top_per_s": 387.70876038338173,
+      "expected_cell": 262144,
+      "cells_checked": 270336,
+      "mismatches": 0
+    },
+    "e5m2_f32": {
+      "instruction": "bench_e5m2_f32",
+      "k": 32,
+      "times_ms": [
+        0.3686400055885315,
+        0.36556801199913025,
+        0.36556801199913025
+      ],
+      "rates_Top_per_s": [
+        384.4778608380354,
+        387.70876038338173,
+        387.70876038338173
+      ],
+      "best_Top_per_s": 387.70876038338173,
+      "expected_cell": 262144,
+      "cells_checked": 270336,
+      "mismatches": 0
+    }
+  },
+  "seconds": 0.17278742790222168
+}

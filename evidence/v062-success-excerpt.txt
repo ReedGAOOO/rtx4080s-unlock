@@ -1,0 +1,92 @@
+RTX4080 SUPER 2702 automatic candidate v0.6.2
+RUN004
+CHECK stage=secure-boot status=0
+CHECK stage=watchdog status=0
+CHECK stage=target status=0
+CHECK stage=display status=0
+CHECK stage=ownership status=0
+CHECK stage=config-recheck status=0
+CHECK stage=bar0 status=0
+cold admission: offset=0 value=0x193000a1 reference=0x193000a1 policy=exact-pin matched=1
+cold admission: offset=0x118128 value=0x8b8f reference=0x8b8f policy=exact-pin matched=1
+cold admission: offset=0x118234 value=0x3ff reference=0x3ff policy=exact-pin matched=1
+cold admission: offset=0x110100 value=0x10 reference=0x10 policy=exact-pin matched=1
+cold admission: offset=0x1fa828 value=0 reference=0 policy=exact-pin matched=1
+cold admission: offset=0x1fa824 value=0x1ffffe00 reference=0x1ffffe00 policy=exact-pin matched=1
+cold admission: offset=0x823804 value=0xffffff8f reference=0xffffff8f policy=exact-pin matched=1
+cold admission: offset=0x82381c value=0x33562110 reference=0x33562110 policy=inactive-and-stable matched=1
+cold admission: offset=0x823820 value=0x3 reference=0x3 policy=inactive-and-stable matched=1
+cold admission: offset=0x823818 value=0x410080 reference=0x410080 policy=exact-pin matched=1
+cold admission: offset=0x1183a4 value=0x7ff8 reference=0x7ff8 policy=exact-pin matched=1
+cold admission: offset=0x625f04 value=0x1 reference=0x1 policy=exact-pin matched=1
+cold admission: offset=0x1fa7c8 value=0x45cb8f reference=0x45cb8f policy=exact-pin matched=1
+cold admission: offset=0x1fa82c value=0x100000 reference=0x100000 policy=exact-pin matched=1
+cold admission: offset=0x1fa830 value=0x7cf7ff0 reference=0x7cf7ff0 policy=exact-pin matched=1
+cold admission: offset=0x1fa7cc value=0x4cb8f reference=0x4cb8f policy=exact-pin matched=1
+cold admission: offset=0x1fa7c4 value=0x4cb8f reference=0x4cb8f policy=exact-pin matched=1
+cold admission: offset=0x9a0148 value=0xffffff0f reference=0xffffff0f policy=exact-pin matched=1
+cold admission: offset=0x824148 value=0x1 reference=0x1 policy=exact-pin matched=1
+cold admission: offset=0x8241e0 value=0x1 reference=0x1 policy=exact-pin matched=1
+CHECK stage=cold-state status=0
+CHECK stage=prom status=0
+CHECK stage=assets status=0
+CHECK stage=windows-preload status=0
+CHECK stage=arming status=0
+CHECK stage=armed-config status=0
+CHECK stage=armed-display status=0
+cold admission: offset=0 value=0x193000a1 reference=0x193000a1 policy=exact-pin matched=1
+cold admission: offset=0x118128 value=0x8b8f reference=0x8b8f policy=exact-pin matched=1
+cold admission: offset=0x118234 value=0x3ff reference=0x3ff policy=exact-pin matched=1
+cold admission: offset=0x110100 value=0x10 reference=0x10 policy=exact-pin matched=1
+cold admission: offset=0x1fa828 value=0 reference=0 policy=exact-pin matched=1
+cold admission: offset=0x1fa824 value=0x1ffffe00 reference=0x1ffffe00 policy=exact-pin matched=1
+cold admission: offset=0x823804 value=0xffffff8f reference=0xffffff8f policy=exact-pin matched=1
+cold admission: offset=0x82381c value=0x33562110 reference=0x33562110 policy=inactive-and-stable matched=1
+cold admission: offset=0x823820 value=0x3 reference=0x3 policy=inactive-and-stable matched=1
+cold admission: offset=0x823818 value=0x410080 reference=0x410080 policy=exact-pin matched=1
+cold admission: offset=0x1183a4 value=0x7ff8 reference=0x7ff8 policy=exact-pin matched=1
+cold admission: offset=0x625f04 value=0x1 reference=0x1 policy=exact-pin matched=1
+cold admission: offset=0x1fa7c8 value=0x45cb8f reference=0x45cb8f policy=exact-pin matched=1
+cold admission: offset=0x1fa82c value=0x100000 reference=0x100000 policy=exact-pin matched=1
+cold admission: offset=0x1fa830 value=0x7cf7ff0 reference=0x7cf7ff0 policy=exact-pin matched=1
+cold admission: offset=0x1fa7cc value=0x4cb8f reference=0x4cb8f policy=exact-pin matched=1
+cold admission: offset=0x1fa7c4 value=0x4cb8f reference=0x4cb8f policy=exact-pin matched=1
+cold admission: offset=0x9a0148 value=0xffffff0f reference=0xffffff0f policy=exact-pin matched=1
+cold admission: offset=0x824148 value=0x1 reference=0x1 policy=exact-pin matched=1
+cold admission: offset=0x8241e0 value=0x1 reference=0x1 policy=exact-pin matched=1
+CHECK stage=armed-cold-state status=0
+CHECK stage=armed-security status=0
+CHECK stage=single-attempt-record status=0
+CHECK stage=driver-release status=0
+CHECK stage=ownership-after-release status=0
+CHECK stage=display-after-release status=0
+CHECK stage=decode-after-release status=0
+CHECK stage=config-after-release status=0
+CHECK stage=bar0-after-release status=0
+cold admission: offset=0 value=0x193000a1 reference=0x193000a1 policy=exact-pin matched=1
+cold admission: offset=0x118128 value=0x8b8f reference=0x8b8f policy=exact-pin matched=1
+cold admission: offset=0x118234 value=0x3ff reference=0x3ff policy=exact-pin matched=1
+cold admission: offset=0x110100 value=0x10 reference=0x10 policy=exact-pin matched=1
+cold admission: offset=0x1fa828 value=0 reference=0 policy=exact-pin matched=1
+cold admission: offset=0x1fa824 value=0x1ffffe00 reference=0x1ffffe00 policy=exact-pin matched=1
+cold admission: offset=0x823804 value=0xffffff8f reference=0xffffff8f policy=exact-pin matched=1
+cold admission: offset=0x82381c value=0x33562110 reference=0x33562110 policy=inactive-and-stable matched=1
+cold admission: offset=0x823820 value=0x3 reference=0x3 policy=inactive-and-stable matched=1
+cold admission: offset=0x823818 value=0x410080 reference=0x410080 policy=exact-pin matched=1
+cold admission: offset=0x1183a4 value=0x7ff8 reference=0x7ff8 policy=exact-pin matched=1
+cold admission: offset=0x625f04 value=0x1 reference=0x1 policy=exact-pin matched=1
+cold admission: offset=0x1fa7c8 value=0x45cb8f reference=0x45cb8f policy=exact-pin matched=1
+cold admission: offset=0x1fa82c value=0x100000 reference=0x100000 policy=exact-pin matched=1
+cold admission: offset=0x1fa830 value=0x7cf7ff0 reference=0x7cf7ff0 policy=exact-pin matched=1
+cold admission: offset=0x1fa7cc value=0x4cb8f reference=0x4cb8f policy=exact-pin matched=1
+cold admission: offset=0x1fa7c4 value=0x4cb8f reference=0x4cb8f policy=exact-pin matched=1
+cold admission: offset=0x9a0148 value=0xffffff0f reference=0xffffff0f policy=exact-pin matched=1
+cold admission: offset=0x824148 value=0x1 reference=0x1 policy=exact-pin matched=1
+cold admission: offset=0x8241e0 value=0x1 reference=0x1 policy=exact-pin matched=1
+CHECK stage=cold-after-release status=0
+CHECK stage=prom-after-release status=0
+transaction result=0 containment=0 started=1 quiesced=1 fault=0 retained=0 maps=0 FLR=1
+POST-FLR SS0=0x88888888 SS1=0x00000008
+ConnectController status=0
+POST-GOP SS0=0x88888888 SS1=0x00000008
+FINAL status=0 stage=post-unlock-handoff attempted=1 driver_release=1 clean=1

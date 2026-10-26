@@ -1,0 +1,17 @@
+/local/
+/deps/
+/source/build-candidate/
+__pycache__/
+*.pyc
+*.rom
+*.bin
+*.efi
+*.EFI
+*.cubin
+*.ptx
+*.dmp
+*.pfx
+*.p12
+*.key
+state.json
+manifest.json
